@@ -10,13 +10,13 @@ public class CategoryRepository {
     private final List<Category> categories=new ArrayList<>(){{
         add(Category.builder()
                 .id(1)
-                .title("Fruits")
-                .description("Fruits").
+                .title("Category1")
+                .description("description").
                 build());
         add(Category.builder()
                 .id(2)
-                .description("Vegetables")
-                .title("fruit")
+                .description("description2")
+                .title("Category2")
                 .build());
     }};
     public List<Category> getAllCategory()
